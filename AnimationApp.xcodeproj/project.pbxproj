@@ -15,6 +15,7 @@
 		59CAFB3C278D8D8800E9382C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59CAFB3B278D8D8800E9382C /* Assets.xcassets */; };
 		59CAFB3F278D8D8800E9382C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59CAFB3D278D8D8800E9382C /* LaunchScreen.storyboard */; };
 		59CAFB4C278ECBF100E9382C /* AnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CAFB4B278ECBF100E9382C /* AnimationModel.swift */; };
+		59FBFB2C27956FF0005EA062 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FBFB2B27956FF0005EA062 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		59CAFB3E278D8D8800E9382C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59CAFB40278D8D8800E9382C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59CAFB4B278ECBF100E9382C /* AnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModel.swift; sourceTree = "<group>"; };
+		59FBFB2B27956FF0005EA062 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		F3223E63A12858827987D3EA /* Pods-AnimationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationApp.release.xcconfig"; path = "Target Support Files/Pods-AnimationApp/Pods-AnimationApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,7 @@
 			children = (
 				59CAFB47278D904F00E9382C /* ViewControllers */,
 				59CAFB48278D906900E9382C /* Storyboards */,
+				59FBFB2A27956FC8005EA062 /* DataManagers */,
 				59CAFB4A278ECBBC00E9382C /* Models */,
 				59CAFB46278D902F00E9382C /* SupportFiles */,
 				59CAFB49278D907800E9382C /* Resources */,
@@ -124,6 +127,14 @@
 				59CAFB4B278ECBF100E9382C /* AnimationModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		59FBFB2A27956FC8005EA062 /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				59FBFB2B27956FF0005EA062 /* DataManager.swift */,
+			);
+			path = DataManagers;
 			sourceTree = "<group>";
 		};
 		685B6431B0E1BA36B8669C0C /* Frameworks */ = {
@@ -250,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59CAFB4C278ECBF100E9382C /* AnimationModel.swift in Sources */,
+				59FBFB2C27956FF0005EA062 /* DataManager.swift in Sources */,
 				59CAFB37278D8D8400E9382C /* ViewController.swift in Sources */,
 				59CAFB33278D8D8400E9382C /* AppDelegate.swift in Sources */,
 				59CAFB35278D8D8400E9382C /* SceneDelegate.swift in Sources */,
